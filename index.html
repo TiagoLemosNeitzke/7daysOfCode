@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>OptimusTech</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container--logo">
+                <img src="img/_Button base.svg" alt="Logomarca OptimusTech">
+            </div>
+            <div class="container--menu">
+                <nav>
+                    <div id="menu" onclick="handleMenu()" class="container--menu--responsive">
+                        <i data-feather="align-justify"></i>
+                    </div>
+                    <ul id="lateral-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <div class="container--buttom">
+                <button class="buttom--entrar">Entrar</button>
+                <button class="buttom--cadastrar">Cadastrar</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container--content--header">
+            <h5>Sobre nós</h5>
+            <h1>Por que somos diferentes?</h1>
+            <p>
+                Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.
+            </p>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+
+    <script>
+        feather.replace()
+      </script>
+</body>
+</html>
