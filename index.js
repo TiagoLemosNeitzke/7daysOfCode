@@ -1,16 +1,7 @@
-const menuEl = document.getElementById('menu')
-const lateralMenuEl = document.getElementById('lateral-menu')
+let menuEl = document.getElementById('lateral--menu')
+console.log(menuEl)
 
-
-function handleMenu() {
-
-    const lateralMenuClassList = Array.from(lateralMenuEl.classList)
-    const isActive = lateralMenuClassList.find(el => el === 'active')
-
-    if (isActive) {
-        lateralMenuEl.classList.remove('active')
-        return
-    }
-
-    lateralMenuEl.classList.add('active')
+function mostraMenu() {
+ menuEl.classList.add('active')
+ 
 }

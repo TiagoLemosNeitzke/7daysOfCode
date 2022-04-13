@@ -18,21 +18,22 @@
                 <img src="img/_Button base.svg" alt="Logomarca OptimusTech">
             </div>
             <div class="container--menu">
+                <div id="menu" onclick="mostraMenu()" class="container--menu--responsive">
+                    <i data-feather="align-justify"></i>
+                </div>
                 <nav>
-                    <div id="menu" onclick="handleMenu()" class="container--menu--responsive">
-                        <i data-feather="align-justify"></i>
-                    </div>
-                    <ul id="lateral-menu">
+                    <ul id="lateral--menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Produtos</a></li>
                         <li><a href="#">Recursos</a></li>
                         <li><a href="#sobre">Sobre nós</a></li>
                     </ul>
+
+                    <div class="container--buttom">
+                        <button class="buttom--entrar">Entrar</button>
+                        <button class="buttom--cadastrar">Cadastrar</button>
+                    </div>
                 </nav>
-                <div class="container--buttom">
-                    <button class="buttom--entrar">Entrar</button>
-                    <button class="buttom--cadastrar">Cadastrar</button>
-                </div>
             </div>
         </div>
     </header>
@@ -133,7 +134,7 @@
                     </div>
 
                     <div class="item">
-                        <h3>Desenvovledor(a) Back-end</h3>
+                        <h3>Desenvolvedor(a) Back-end</h3>
                         <div class="content--item">
                             <p>Full-time</p>
                         </div>
@@ -169,7 +170,7 @@
                 <p>Seja o promeiro a saber quando novas vagas serão abertas!</p>
                 <form action="">
                     <input type="email" placeholder="Seu e-mail">
-                    <button type="submit" >Cadastrar</button>
+                    <button type="submit">Cadastrar</button>
                 </form>
             </div>
 
