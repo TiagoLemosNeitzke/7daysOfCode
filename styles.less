@@ -24,6 +24,10 @@
     align-items   : center;
 }
 
+.active {
+    opacity: 1 !important;
+}
+
 body,
 button {
     font-family: 'Roboto', sans-serif;
@@ -34,7 +38,7 @@ header {
     margin  : 0 auto;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1004px) {
         width: 100%;
     }
 
@@ -51,7 +55,7 @@ header {
                 height: 32px;
                 margin: 26.5px 40px 26.5px 0;
 
-                @media (max-width: 768px) {
+                @media (max-width: 1004px) {
                     margin-left: 20px;
 
                 }
@@ -70,7 +74,7 @@ header {
             .container--menu--responsive {
                 opacity: 0;
 
-                @media (max-width: 768px) {
+                @media (max-width: 1004px) {
                     opacity        : 1;
                     position       : absolute;
                     top            : 25px;
@@ -87,12 +91,14 @@ header {
                 align-items    : center;
                 margin-right   : auto;
 
-                @media (max-width: 768px) {
+                @media (max-width: 1004px) {
                     display       : block;
                     flex-direction: column;
                     position: absolute;
                     justify-content: center;
                     right: 20px;
+                    opacity: 0;
+                
                 }
                 
                 ul {
@@ -101,14 +107,14 @@ header {
                     justify-content: space-around;
                     align-items    : center;
 
-                    @media (max-width: 768px) {
+                    @media (max-width: 1004px) {
                         display       : block;
                         flex-direction: column;
                         position: absolute;
                         justify-content: center;
                         top: 10px;
                         right: 19px;
-                        
+                        margin-bottom: 10px;
                     }
 
                     li {
@@ -132,7 +138,7 @@ header {
                     right          : 20px;
 
 
-                    @media (max-width: 768px) {
+                    @media (max-width: 1004px) {
                         display       : block;
                         flex-direction: column;
                         position: absolute;
