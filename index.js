@@ -1,7 +1,13 @@
-let menuEl = document.getElementById('lateral--menu')
-console.log(menuEl)
+const menuEl = document.getElementById('lateral--menu')
 
 function mostraMenu() {
- menuEl.classList.add('active')
- 
+
+
+    if (menuEl.classList == 'active') {
+        menuEl.classList.remove('active')
+    } else {
+        menuEl.classList.add('active')
+    }
+
+
 }
