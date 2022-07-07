@@ -1,5 +1,5 @@
 # 7daysOfCode
-<img src="https://github.com/TiagoLemosNeitzke/miniframework/blob/master/img/comndoPHP.png" alt="execute este comendo php -S localhost:8080">.
+<img src="https://github.com/TiagoLemosNeitzke/7daysOfCode/blob/master/img/7daysOfCodeIndex.png" alt="execute este comendo php -S localhost:8080">.
 
 > Este projeto é um desafio proposto pela Alura e desenvolvido por Giovanna Moeller. Disponível em https://7daysofcode.io/matricula/html-css
 <br>
